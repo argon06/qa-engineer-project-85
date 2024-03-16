@@ -73,11 +73,11 @@
   test-data: |
       email=mornmornmorn@mail.ru, pass=123qweasd 
   steps:
-      - Нажимаем кнопку "Create a game"
+      - Нажимаем кнопку Create a game
       - выбираем любой Level
-      - Game Type="with a bot"
+      - Game Type=with a bot
       - выбираем любой Time control
-      - Нажимаем кнопку "Create battle"
+      - Нажимаем кнопку Create battle
   expected-result: |
       У пользователя запускается игра
 
@@ -91,11 +91,11 @@
       email=mornmornmorn@mail.ru, pass=123qweasd 
   steps:
       - Нажимаем на имя пользователя в правом верхнем углу
-      - В открывшемся меню выбираем "Settings"
-      - В поле "Your name" добавляем к установленному имени _2
-      - В поле "Your weapon" выбираем любой другой язык
-      - "Select sound type" устанавливаем "Standard"
-      - Нажимаем "Save"
+      - В открывшемся меню выбираем Settings
+      - В поле Your name добавляем к установленному имени_2
+      - В поле Your weapon выбираем любой другой язык
+      - В Select sound type выбираем Standard
+      - Нажимаем Save
   expected-result: |
       У пользователя сохранились измененные настройки
 
@@ -109,8 +109,8 @@
       email=mornmornmorn@mail.ru, pass=123qweasd 
   steps:
       - В разделе Лобби выбираем любого пользователя
-      - В открывшемся меню выбираем "Send an invite"
-      - Нажимаем "Create invite"
+      - В открывшемся меню выбираем Send an invite
+      - Нажимаем Create invite
   expected-result: |
       Пользователю отправлено приглашение на дуэль
 
@@ -124,8 +124,8 @@
       email=mornmornmorn@mail.ru, pass=123qweasd 
   steps:
       - В разделе Лобби выбираем любого пользователя
-      - В открывшемся меню выбираем "Direct message"
-      - Нажимаем "Create invite"
-      - В поле чата слева в текстовое поле вводим любой текст и нажимаем "Send"
+      - В открывшемся меню выбираем Direct message
+      - Нажимаем Create invite
+      - В поле чата слева в текстовое поле вводим любой текст и нажимаем Send
   expected-result: |
       Пользователю отправлено персональное сообщение
